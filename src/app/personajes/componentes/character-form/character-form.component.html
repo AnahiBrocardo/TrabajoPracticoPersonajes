@@ -1,0 +1,36 @@
+<fieldset>
+    <legend>Agregar Personaje</legend>
+    <form [formGroup]="formulario" (ngSubmit)="agregarPersonaje()">
+        <label for="name">Nombre: </label>
+        <input type="text" placeholder="Nombre personaje" formControlName="name">
+        @if(formulario.controls['name'].getError('required') && formulario.controls['name'].touched){
+            <div class="error">
+            Nombre requerido
+            </div>
+        }
+        <label for="alias">Alias: </label>
+        <input type="text" placeholder="Alias" formControlName="alias">
+        @if(formulario.controls['alias'].getError('required') && formulario.controls['alias'].touched){
+            <div class="error">
+            Alias requerido
+            </div>
+        }
+
+        <label for="powers">Poderes y habilidades: </label>
+        <input type="text" placeholder="Poderes" formControlName="powers">
+        @if(formulario.controls['powers'].getError('required') && formulario.controls['powers'].touched){
+            <div class="error">
+            Poderes requeridos
+            </div>
+        }
+
+        <label for="description">Descripcion: </label>
+        <input type="text" placeholder="Descripcion" formControlName="description">
+        @if(formulario.controls['description'].getError('required') && formulario.controls['description'].touched){
+            <div class="error">
+            Descripcion requerida
+            </div>
+        }
+        <button type="submit">Aceptar</button>
+    </form>
+</fieldset>

@@ -1,0 +1,7 @@
+<section>
+    @for (personaje of personajes; track $index) {
+     <div>
+        <app-character-card [personaje]="personaje" (verDetallesEvent)="OnDetalles($event)" (deleteEvent)="onDelete($event)"></app-character-card>
+     </div>
+    }
+</section>

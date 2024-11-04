@@ -1,0 +1,22 @@
+<section>
+@if(personaje){
+    <div>
+<ul>
+    <li>
+        Nombre: {{ personaje.name}}
+    </li>
+    <li>
+        Alias: {{ personaje.alias}}
+    </li>
+    <li>
+        Poderes: {{ personaje.powers}}
+    </li>
+    <li>
+        Descripcion: {{ personaje.description}}
+    </li>
+</ul>   
+    <hr/>
+    <button (click)="onEdit()">Editar personaje</button> <!-- Botón de edición -->
+ </div>
+}
+</section>

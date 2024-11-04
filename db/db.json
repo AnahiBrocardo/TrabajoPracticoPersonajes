@@ -1,0 +1,18 @@
+{
+  "personajes": [
+    {
+      "name": "Bruce Wayne",
+      "alias": "Batman",
+      "description": "Batman es un superhéroe sin superpoderes, conocido por su inteligencia, habilidades de detective y su inquebrantable voluntad de luchar contra el crimen. Bajo la máscara se encuentra Bruce Wayne, un multimillonario que, tras presenciar el asesinato de sus padres cuando era niño, juró dedicar su vida a combatir la injusticia en su ciudad, Gotham.",
+      "powers": "El super mejor detective del mundo",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Clark Kent",
+      "alias": "Superman",
+      "powers": "Superfuerza, Supervelocidad, Vuelo",
+      "description": "Superman es uno de los superhéroes más icónicos y poderosos del mundo. Originario del planeta Krypton, fue enviado a la Tierra cuando su planeta natal estaba a punto de ser destruido. Criado por los Kent como Clark Kent, Superman posee una variedad de superpoderes que lo distinguen."
+    }
+  ]
+}
